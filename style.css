@@ -23,7 +23,7 @@ html {
   --bg-header: #064360;
   --bg-gradient:linear-gradient(to right,#064360,#000000);
   --btn-gradient:linear-gradient(270deg,rgb(0, 255, 234), rgb(0, 255, 123));
-  --alter-gradient:linear-gradient(to right,#370000,#064360);
+  --alter-gradient:linear-gradient(to right,#000000,#064360);
   --text-about:#d1d5db;
   scrollbar-width: none;
   scroll-behavior: smooth;
@@ -1069,7 +1069,7 @@ h3 {
     width:100%;
     padding:32px 16px;
     text-align: center;
-    background: var(--bg-gradient);
+    background: var(--alter-gradient);
     color: var(--text-color);
     position:relative;
 
@@ -1143,7 +1143,7 @@ h3 {
       flex-wrap: wrap;
     }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   html {
 
     scroll-padding-top: 69px;
@@ -1234,6 +1234,7 @@ font-size: 30px;
 
   #services{
     padding:32px 24px;
+    gap:24px;
   }
   #services .services {
     grid-template-columns: repeat(2,1fr);
