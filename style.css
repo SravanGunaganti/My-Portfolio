@@ -19,7 +19,7 @@ a {
 }
 
 html {
-  --bg-color: #2a303c;
+  --bg-color: #323334;
   --text-color: white;
   --bg-header: #064360;
   --bg-gradient: linear-gradient(to right, #064360, #000000);
@@ -1024,7 +1024,7 @@ footer {
   width: 100%;
   padding: 32px 16px;
   text-align: center;
-  background: var(--bg-gradient);
+  background: var(--footer-bg);
   color: var(--text-color);
   position: relative;
 }
