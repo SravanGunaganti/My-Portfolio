@@ -711,15 +711,38 @@ h2 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+
   
+  
+}
+#services article>span{
+  position:absolute;
+  top:0;
+  left:0;
+  width:0;
+  height:100%;
+  z-index:-1;
+  transition:all 0.3s linear;
+  background:var(--btn-gradient);
+
+
 }
 #services article:hover {
   transform: translateY(-5px);
+  color:var(--btn-color);
+}
+
+#services article:hover span{
+  width:100%;
 }
 #services .icon {
   font-size: 40px;
   color: #007bff;
 }
+
+
 /* h2 {
   color: #333;
 }
@@ -780,8 +803,8 @@ h3 {
     height: 0;
     z-index: -1;
     border-radius: 0 0 0 100%;
-    background-color: #0ea4e91a;
-    transition: all 1s linear;
+    background: var(--alter-gradient);
+    transition: all 0.5s linear;
   }
 
   article:hover .article-fade {
