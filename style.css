@@ -137,10 +137,6 @@ header nav {
   gap: 16px;
 }
 
-/* Mobile Navigation */
-/* .md\:hidden {
-    display: block;
-  } */
 
 .moon {
   color: white;
@@ -323,10 +319,7 @@ background-clip: text;
   transition: all 0.3s ease;
   font-size: 16px;
   line-height: 1.8;
-
-  /* box-shadow: inset 0px 0px 10px #1051df; */
   letter-spacing: 2px;
-  /* transform-style: preserve-3d; */
   overflow: hidden;
 }
 .download-btn span{
@@ -710,7 +703,7 @@ h2 {
   /* width: 300; */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.5s linear;
   position: relative;
   overflow: hidden;
 
@@ -724,7 +717,7 @@ h2 {
   width:0;
   height:100%;
   z-index:-1;
-  transition:all 0.3s linear;
+  transition:all 0.7s linear;
   background:var(--btn-gradient);
 
 
@@ -949,7 +942,7 @@ h3 {
     transform: perspective(1000px) translateY(-7px) rotateX(5deg);
   }
 
-  /* contact form */
+  /* contact*/
 
   #contact {
     display: flex;
