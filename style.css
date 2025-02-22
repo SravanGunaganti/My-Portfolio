@@ -18,7 +18,7 @@ a {
 }
 
 html {
-  --bg-color: #1a202c;
+  --bg-color: #2a303c;
   --text-color: white;
   --bg-header: #064360;
   --bg-gradient:linear-gradient(to right,#064360,#000000);
@@ -1062,7 +1062,7 @@ h3 {
     width:100%;
     padding:32px 16px;
     text-align: center;
-    background: var(--alter-gradient);
+    background: var(--bg-gradient);
     color: var(--text-color);
     position:relative;
 
