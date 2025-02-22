@@ -923,7 +923,7 @@ h3 {
   }
 
   article:hover{
-    transform: perspective(1000px) translateY(-7px) rotateX(1deg);
+    transform: perspective(1000px) translateY(-7px) rotateX(5deg);
   }
 
   /* contact form */
